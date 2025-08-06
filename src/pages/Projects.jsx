@@ -65,7 +65,7 @@ const Projects = () => {
               imgPath={zoompic}
               isBlog={false}
               title="Video Conferencing Website"
-              description="A crypto wallet interface showcasing token transactions, market insights, and user-friendly crypto management—all wrapped in sleek React components."
+              description="implemented a robust video conferencing platform with secure authentication via Clerk, supporting both social login and email/password sign-in with granular access controls. The system enables instant and scheduled meetings, offers personal meeting rooms with unique links, and provides dynamic participant controls including screen sharing, reactions, recording, grid layout, and user management. He architected full meeting lifecycle support—start, exit, end for all participants—along with tracking past sessions and accessing recordings with metadata. The platform ensures real-time encrypted communication, delivers a responsive interface across devices, and follows a modular, reusable code architecture for scalability and maintainability."
               ghLink="https://github.com/YashGarg81/zoomclone"
             />
           </Col>
