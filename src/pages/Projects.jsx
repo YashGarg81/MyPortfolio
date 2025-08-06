@@ -6,6 +6,7 @@ import pg from "../assets/projects/pg.png";
 import krypto from "../assets/projects/krypto.png";
 import portfolio from "../assets/projects/portfolio.png";
 import xolanaWalletImg from "../assets/projects/xolanawallet.png";
+import zoompic from "../assets/projects/zoompic.png";
 
 const Projects = () => {
   return (
@@ -56,6 +57,16 @@ const Projects = () => {
               title="wallet"
               description="A crypto wallet interface showcasing token transactions, market insights, and user-friendly crypto management—all wrapped in sleek React components."
               ghLink="https://github.com/YashGarg81/Wallet"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={zoompic}
+              isBlog={false}
+              title="Video Conferencing Website"
+              description="A crypto wallet interface showcasing token transactions, market insights, and user-friendly crypto management—all wrapped in sleek React components."
+              ghLink="https://github.com/YashGarg81/zoomclone"
             />
           </Col>
 
